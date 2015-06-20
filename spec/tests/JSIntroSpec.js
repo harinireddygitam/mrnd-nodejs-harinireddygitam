@@ -49,7 +49,8 @@ describe("JSIntro Test Suite", function(){
 	});
 	describe("JSIntro-ReverseString", function(){
 
-		it("abc reversed is cba", function(){
+	    it("abc reversed is cba", function ()
+	    {
 
 			var str = JSIntro.ReverseString("abc");
 			expect(str).toEqual("cba");
